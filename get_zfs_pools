@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Get ZFS pools as JSON
+zpool list -j -p 2>/dev/null || echo '{"pools":[]}'
