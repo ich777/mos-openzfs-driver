@@ -13,7 +13,7 @@ else
 fi
 
 # Set variables for plugin
-PLG_NAME="openzfs"
+PLG_NAME="openzfs-driver"
 DISPLAY_NAME="OpenZFS Driver"
 PLG_DIR="/boot/optional/plugins/$PLG_NAME"
 DRV_TMP_DIR="/var/mos/mos-plugins"
